@@ -1,0 +1,21 @@
+body,
+html {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -o-crisp-edges;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
